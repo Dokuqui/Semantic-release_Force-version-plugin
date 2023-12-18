@@ -1,0 +1,15 @@
+{
+    "name": "plugin",
+    "version": "1.0.0",
+    "description": "Version plugin",
+    "main": "script.js",
+    "scripts": {
+        "test": "jest",
+        "test-coverage": "jest --coverage"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0"
+    },
+    "author": "Illia",
+    "license": "ISC"
+}
