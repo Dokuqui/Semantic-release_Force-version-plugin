@@ -1,5 +1,5 @@
 # Semantic-release Force-version Plugin
-Plugin to force your version in semantic release
+Plugin to force your version in semantic release.
 Specially created custom plugin for semantic release. Goal of plugin to help you force your version if there is need. 
 
 Documentation:
