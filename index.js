@@ -1,4 +1,4 @@
-import FORCE_TYPE_VERSION from './src/force_type';
+import FORCE_TYPE_VERSION from './src/force_version';
 
 async function analyzeCommits(pluginConfig, context) {
     const { commits, releases, lastRelease, nextRelease, options, cwd } = context;
