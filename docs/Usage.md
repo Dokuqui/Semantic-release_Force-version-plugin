@@ -1,6 +1,19 @@
-Case Example:
+## Adding to Pipeline
+To add this plugin to your pipeline you should adjust your `.releaserc.yaml` with next configurations:
 
-`@important` `@essential`
+```
+tagFormat: "v${version}"
+
+branches:
+  - master
+  - next
+
+plugins:
+- - "semantic-release-force-version"
+```
+
+## Case Example:
+
 ### Scenario Outline: As a developper member, I want to successfully force a "<expected_release_type>" release locally (on a fake git project)
    * Given I have access to a fake project versioned with "fake-server" 
    * And the semantic-release job in dry-run mode shows me the next tagged version 
