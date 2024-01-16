@@ -1,8 +1,7 @@
-import { analyzeCommits } from "./src/force_version";
+import analyzeCommits from './src/force_type'
 
-async function analyzeCommits(pluginConfig, context) {
-    const { commits, releases, lastRelease, nextRelease, options, cwd } = context;
-    await analyzeCommits(pluginConfig, context);
+async function runAnalyzeCommits(pluginConfig, context) {
+    await analyzeCommits(pluginConfig, context)
 }
 
 export default {
