@@ -1,4 +1,4 @@
-import analyzeCommits from '../src/force_type'
+import analyzeCommits from '../src/force_version'
 
 describe('analyzeCommits function', () => {
     test('returns null when FORCE_TYPE_VERSION is not provided', async () => {
