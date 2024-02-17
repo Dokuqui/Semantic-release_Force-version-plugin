@@ -4,10 +4,7 @@
   "version": "1.0.0",
   "description": "Semantic-release plugin to force your version",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dokuqui/Semantic-release_Force-version-plugin.git"
-  },
+  "repositoryUrl": "https://github.com/Dokuqui/Semantic-release_Force-version-plugin",
   "scripts": {
     "test": "jest",
     "test-coverage": "jest --coverage"
