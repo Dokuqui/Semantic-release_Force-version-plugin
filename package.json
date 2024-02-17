@@ -1,6 +1,10 @@
 {
   "type": "module",
   "name": "@dokuqui/semantic-release-force-version",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dokuqui/Semantic-release_Force-version-plugin.git"
+  },
   "version": "1.0.0",
   "description": "Semantic-release plugin to force your version",
   "main": "index.js",
