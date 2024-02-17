@@ -12,6 +12,9 @@
     "test": "jest",
     "test-coverage": "jest --coverage"
   },
+  "release": {
+    "branches": ["main"]
+  },
   "devDependencies": {
     "@babel/core": "^7.23.6",
     "@babel/preset-env": "^7.23.6",
