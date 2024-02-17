@@ -65,23 +65,24 @@ jobs:
     - name: Run unit tests
       run: npm run test-coverage
 
-  # publish:
-  #   runs-on: ubuntu-latest
+  publish:
+    runs-on: ubuntu-latest
+    needs: test
 
-  #   steps:
-  #     - name: Checkout code
-  #       uses: actions/checkout@v2
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-  #     - name: Setup Node.js
-  #       uses: actions/setup-node@v3
-  #       with:
-  #         node-version: '18'
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
 
-  #     - name: Install dependencies
-  #       run: npm install
+    - name: Install Semantic Release
+      run: npm install -g semantic-release@17 @semantic-release/git@10 @semantic-release/changelog@7 @semantic-release/npm@7
 
-  #     - name: Publish to npm
-  #       run: npm publish --access public
-  #       env:
-  #         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
+    - name: Run Semantic Release
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      run: npx semantic-release

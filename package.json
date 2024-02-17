@@ -31,5 +31,17 @@
   "directories": {
     "doc": "docs",
     "test": "test"
-  }
+  },
+  "keywords": [
+    "semantic-release",
+    "plugin",
+    "force-version"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },  
+  "contributors": [
+    "Semenov Illia doku_is@icloud.com"
+  ]
 }
