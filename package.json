@@ -3,9 +3,9 @@
   "name": "@dokuqui/semantic-release-force-version",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dokuqui/Semantic-release_Force-version-plugin.git"
+    "url": "https://github.com/Dokuqui/Semantic-release_Force-version-plugin"
   },
-  "version": "1.0.0",
+  "version": "2.3.1",
   "description": "Semantic-release plugin to force your version",
   "main": "index.js",
   "repositoryUrl": "https://github.com/Dokuqui/Semantic-release_Force-version-plugin",
@@ -14,7 +14,9 @@
     "test-coverage": "jest --coverage"
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.23.6",
@@ -24,9 +26,13 @@
     "jest": "^29.5.0"
   },
   "author": "Semenov Illia",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@semantic-release/error": "github:semantic-release/error"
+    "@semantic-release/error": "github:semantic-release/error",
+    "@semantic-release/github": "^9.2.6",
+    "release": "^6.3.1",
+    "semantic": "^0.0.1",
+    "semantic-release": "^23.0.2"
   },
   "bugs": {
     "url": "https://github.com/Dokuqui/Semantic-release_Force-version-plugin/issues"
@@ -44,7 +50,7 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },  
+  },
   "contributors": [
     "Semenov Illia doku_is@icloud.com"
   ]
