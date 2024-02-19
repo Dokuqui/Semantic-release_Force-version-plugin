@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/Dokuqui/Semantic-release_Force-version-plugin"
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "Semantic-release plugin to force your version",
   "main": "index.js",
   "repositoryUrl": "https://github.com/Dokuqui/Semantic-release_Force-version-plugin",
