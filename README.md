@@ -1,12 +1,15 @@
 # Semantic-release Force-version Plugin
 
-![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+[![Jest](https://img.shields.io/badge/Jest-v.29.5.0-yellow?logo=jest)](https://jestjs.io/)
 
-![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515)
+[![YAML](https://img.shields.io/badge/YAML-Code-blue?logo=yaml)](https://yaml.org/)
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+[![JavaScript](https://img.shields.io/badge/JavaScript-code-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+
+[![GitHub Actions](https://img.shields.io/badge/GithubActions-PipeLine-blue?logo=githubactions)](https://github.com/features/actions)
+
+[![Semantic-Release](https://img.shields.io/badge/SemanticRelease-v.23.0.2-white?logo=semantic-release)](https://semantic-release.gitbook.io/semantic-release/)
 
 ![Semantic Release](https://avatars.githubusercontent.com/u/12867925?s=280&v=4)
 
