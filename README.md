@@ -14,7 +14,7 @@
 ![Semantic Release](https://avatars.githubusercontent.com/u/12867925?s=280&v=4)
 
 Plugin to force your version in semantic release. This project is a plugin for semantic-release.
-It allows to force version of semantic-release by type in Javascript. <br>
+It allows to force version of semantic-release by type in JavaScript. <br>
 Specially created custom plugin for semantic release. Goal of plugin to help you force your version if there is need.
 
 Documentation:
